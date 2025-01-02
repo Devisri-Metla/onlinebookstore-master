@@ -17,3 +17,7 @@ spec:
         image: devisri563/java-app
         ports:
         - containerPort: 8081  # Change the container port to 8081
+      imagePullSecrets:
+      - name: ecr-secret
+        
+      
