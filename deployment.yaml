@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: bookstore
-        image: devisri563/java-app
+        image: 084375547303.dkr.ecr.ap-south-1.amazonaws.com/my-app:2
         ports:
         - containerPort: 8081  # Change the container port to 8081
       imagePullSecrets:
